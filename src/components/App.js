@@ -15,6 +15,10 @@ const App = () => {
                         onClick={() => setResource('todos')}>
                         Todos
                     </button>
+                    <button
+                        onClick={() => setResource('users')}>
+                        Users
+                    </button>
                 </div>
                 <div>
                     {resource}
